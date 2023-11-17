@@ -559,41 +559,6 @@ footer .wrapper {
     content: "";
 }
 
-.main-card::after {
-    content: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    border-radius: 10px;
-    bottom: 0;
-    border: 2px solid #0047F5;
-    animation: clippath 1.5s forwards linear;
-}
-
-@keyframes clippath {
-    0% {
-        clip-path: inset(0 0 95% 0);
-
-    }
-
-    25% {
-        clip-path: inset(0 0 0 95%);
-
-    }
-
-    50% {
-        clip-path: inset(0 0 0 0);
-    }
-
-    75% {
-        clip-path: inset(0 0 0 0);
-    }
-
-    100% {
-        clip-path: inset(0 0 0 0);
-    }
-}
 
 /* Попап */
 .popup {
@@ -1430,7 +1395,7 @@ header .wrapper {
 }
 
 .footerTopContainer ul:nth-of-type(1) {
-    width: 100%;
+    width: 35%;
 }
 
 .footerfina .footerTopContainer ul li {

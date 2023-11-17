@@ -1,3 +1,88 @@
+@font-face {
+    font-family: 'Nekst';
+    src: url('../fonts/SemiBold.eot');
+    src: local('Nekst Semi Bold'), local('Nekst-SemiBold'),
+        url('../fonts/Nekst-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nekst-SemiBold.woff2') format('woff2'),
+        url('../fonts/Nekst-SemiBold.woff') format('woff'),
+        url('../fonts/Nekst-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('../fonts/Nekst-Regular.eot');
+    src: local('Nekst'), local('Nekst-Regular'),
+        url('../fonts/Nekst-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nekst-Regular.woff2') format('woff2'),
+        url('../fonts/Nekst-Regular.woff') format('woff'),
+        url('../fonts/Nekst-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('../fonts/Nekst-Black.eot');
+    src: local('Nekst Black'), local('Nekst-Black'),
+        url('../fonts/Nekst-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nekst-Black.woff2') format('woff2'),
+        url('../fonts/Nekst-Black.woff') format('woff'),
+        url('../fonts/Nekst-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('../fonts/Nekst-Thin.eot');
+    src: local('Nekst Thin'), local('Nekst-Thin'),
+        url('../fonts/Nekst-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nekst-Thin.woff2') format('woff2'),
+        url('../fonts/Nekst-Thin.woff') format('woff'),
+        url('../fonts/Nekst-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('../fonts/Nekst-Bold.eot');
+    src: local('Nekst Bold'), local('Nekst-Bold'),
+        url('../fonts/Nekst-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nekst-Bold.woff2') format('woff2'),
+        url('../fonts/Nekst-Bold.woff') format('woff'),
+        url('../fonts/Nekst-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('../fonts/Nekst-Medium.eot');
+    src: local('Nekst Medium'), local('Nekst-Medium'),
+        url('../fonts/Nekst-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nekst-Medium.woff2') format('woff2'),
+        url('../fonts/Nekst-Medium.woff') format('woff'),
+        url('../fonts/Nekst-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nekst';
+    src: url('Nekst-Light.eot');
+    src: local('Nekst Light'), local('Nekst-Light'),
+        url('../fonts/Nekst-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nekst-Light.woff2') format('woff2'),
+        url('../fonts/Nekst-Light.woff') format('woff'),
+        url('../fonts/Nekst-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
 .rating {
     display: flex;
     width: auto;
@@ -439,7 +524,7 @@ footer .wrapper {
 
 .form-input input::placeholder {
     color: #FFF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -681,7 +766,7 @@ footer .wrapper {
 .popup-content2 h2 {
     color: #000;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -692,7 +777,7 @@ footer .wrapper {
 .popup-content2 h3 {
     color: #000;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -709,7 +794,7 @@ footer .wrapper {
 
 #popupForm input::placeholder {
     color: #000;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -767,7 +852,7 @@ footer .wrapper {
 .thank-you-message h2 {
     color: #000;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -943,7 +1028,7 @@ footer .wrapper {
 
 .creditor-header h2 {
     color: #000;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -952,7 +1037,7 @@ footer .wrapper {
 
 .creditor-main-top h3 {
     color: #686868;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -965,7 +1050,7 @@ footer .wrapper {
     width: 151px;
     min-width: 151px;
     color: #686868;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -981,7 +1066,7 @@ footer .wrapper {
 
 .card-container-right {
     color: #000;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -990,7 +1075,7 @@ footer .wrapper {
 
 .card-container-right a {
     color: #000;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -1033,7 +1118,8 @@ footer .wrapper {
 }
 
 .headerNavigationBurger li a {
-    font-family: 'Nekst-Bold', sans-serif;
+    font-family: 'Nekst';
+    font-weight: 700;
     font-size: 32px;
     line-height: 55px;
     color: #FFFFFF;
@@ -1161,7 +1247,8 @@ body {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    font-family: 'Nekst-Regular', sans-serif;
+    font-family: 'Nekst';
+    font-weight: 400;
     font-size: 18px;
     line-height: 140%;
     color: #111B25;
@@ -1206,7 +1293,8 @@ a {
 }
 
 .showContentLeft h3 {
-    font-family: 'Nekst-SemiBold', sans-serif;
+    font-family: 'Nekst';
+    font-weight: 600;
     font-size: 26px;
     line-height: 140%;
     color: #111B25;
@@ -1214,7 +1302,8 @@ a {
 }
 
 .showContentLeft p {
-    font-family: 'Nekst-Regular', sans-serif;
+    font-family: 'Nekst';
+    font-weight: 400;
     font-size: 20px;
     line-height: 120%;
     color: #111B25;
@@ -1280,7 +1369,8 @@ header .wrapper {
 }
 
 .logotype span {
-    font-family: 'Nekst-Bold', sans-serif;
+    font-family: 'Nekst';
+    font-weight: 700;
     font-size: 25px;
     font-weight: 700;
     line-height: 110%;
@@ -1461,7 +1551,7 @@ header .wrapper {
     width: 100%;
     color: #FFF;
     text-align: center;
-    font-family: 'Nekst-Regular', sans-serif;
+    font-family: 'Nekst';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -1482,7 +1572,7 @@ header .wrapper {
     color: #FFF;
     height: 26px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -1517,7 +1607,7 @@ header .wrapper {
 
 .finaguru-main .moigroshi-content-price1 {
     color: #000;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -1535,7 +1625,7 @@ header .wrapper {
 .finaguru-main .moigroshi-content-price-link a {
     color: #000;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -1546,7 +1636,7 @@ header .wrapper {
 .finaguru-main .moigroshi-content-present-text div {
     color: #000;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -1563,7 +1653,7 @@ header .wrapper {
 
 .finaguru-main .moigroshi-content-present-text div span {
     color: #03B047;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -1573,7 +1663,7 @@ header .wrapper {
 .finaguru-main .moigroshi-content-present-tittle {
     color: #000;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     font-style: normal;
     font-weight: 600;
@@ -1588,7 +1678,7 @@ header .wrapper {
     background: #F8A430;
     color: #FFF;
     text-align: center;
-    font-family: 'Nekst-Regular', sans-serif;
+    font-family: 'Nekst';
     font-size: 12px;
     display: flex;
     border-radius: 5px;
